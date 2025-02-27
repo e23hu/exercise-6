@@ -3,6 +3,7 @@
   <head>
     <meta charset="utc-8">
     <title>Exercise 6: Navigation</title>
+    <!-- Created by Emily Hu on Wednesday Feb 26th -->
     <!-- This is code to embed/employ Google Fonts in the site design, we'll learn more about this next week--->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -59,13 +60,17 @@
       }
 
       .courses {
+        float: left;
+        width: 690px;
         border-right: 1px solid #eeeeee;
+
       }
 
       .article {
         clear: both;
         overflow: auto;
         width: 100%;
+    
       }
 
       .hgroup {
@@ -89,9 +94,11 @@
       }
 
       #sidebar {
-        padding: 0px 0px 0px 20px;
+        float: right;
+        width: 220px;
+        padding-left: 20px;
       }
-
+      
       h2 {
         margin: 10px 0px 5px 0px;
         padding: 0px;
@@ -148,9 +155,9 @@
         <h1>Yoko's Kitchen</h1>
         <div id="nav">
          <ul>
-           <li><a href="">Home</a></li>
-           <li><a href="">Classes</a></li>
-           <li><a href="">Catering</a></li>
+           <li><a href="/">Home</a></li>
+           <li><a href="/">Classes</a></li>
+           <li><a href="/">Catering</a></li>
            <li><a href="">About</a></li>
           </ul> 
           
@@ -158,6 +165,7 @@
           
         </div>
       </div>
+      
       <div class="courses">
         <div class="article">
           <figure>
@@ -170,6 +178,7 @@
           </div>
           <p>A five week introduction to traditional Japanese vegetarian meals, tefaching you a selection of rice and noodle dishes.</p>
         </div>
+        
         <div class="article">
           <figure>
             <img src="https://i.imgur.com/dd27k4P.jpg" alt="Teriyaki sauce">
@@ -182,6 +191,7 @@
           <p>An intensive one-day course looking at how to create the most delicious sauces for use in a range of Japanese cookery.</p>
         </div>
       </div>
+      
       <div id="sidebar">
         <div class="popular-recipes">
           <h2>Popular Recipes</h2>
